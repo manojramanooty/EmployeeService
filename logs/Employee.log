@@ -1,143 +1,16 @@
-2020-07-15 09:40:46.057  WARN 4488 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h57m49s506ms568µs900ns).
-2020-07-15 09:42:56.420  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 09:47:56.392  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 09:52:56.115  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 09:57:56.116  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:02:56.152  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:07:56.171  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:12:56.184  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:17:56.194  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:22:56.223  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:27:56.231  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:32:56.232  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:37:56.259  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:42:56.278  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:47:56.286  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:52:56.298  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 10:57:56.317  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:02:56.329  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:07:56.338  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:12:56.362  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:17:56.374  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:22:56.380  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:27:56.391  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:32:56.401  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:37:56.407  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:42:56.416  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:47:56.442  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:52:56.455  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 11:57:56.461  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:02:56.477  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:07:56.489  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:12:56.496  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:17:56.506  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:22:56.526  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:27:56.535  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:32:56.543  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:37:56.564  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:42:56.582  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:47:56.589  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:52:56.593  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 12:57:56.597  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:02:56.610  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:07:56.622  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:12:56.649  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:17:56.672  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:22:56.693  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:27:56.703  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:32:56.714  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:37:56.726  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:42:56.739  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:47:56.762  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:52:56.781  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 13:57:56.796  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:02:56.806  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:07:56.813  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:12:56.828  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:17:56.849  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:22:56.873  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:27:56.888  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:32:56.901  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:37:56.912  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:42:56.926  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:48:12.002  WARN 4488 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m53s485ms307µs).
-2020-07-15 14:52:20.400  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 14:57:20.718  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:02:20.973  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:07:20.976  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:12:20.977  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:17:20.980  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:22:20.984  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:27:20.986  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:32:20.989  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:34:38.682  INFO 4488 --- [http-nio-1000-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-07-15 15:34:38.683  INFO 4488 --- [http-nio-1000-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-07-15 15:34:38.712  INFO 4488 --- [http-nio-1000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
-2020-07-15 15:35:58.175  INFO 4488 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EMPLOYEE-SERVER with eureka with status DOWN
-2020-07-15 15:35:58.176  WARN 4488 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1594807558176, current=DOWN, previous=UP]
-2020-07-15 15:35:58.177  INFO 4488 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVER/192.168.40.241:employee-server:1000: registering service...
-2020-07-15 15:35:58.196  INFO 4488 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVER/192.168.40.241:employee-server:1000 - registration status: 204
-2020-07-15 15:35:59.047  INFO 4488 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-07-15 15:35:59.051  INFO 4488 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-07-15 15:35:59.059  INFO 4488 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2020-07-15 15:36:02.060  INFO 4488 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2020-07-15 15:36:02.060  WARN 4488 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
-2020-07-15 15:36:02.085  INFO 4488 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVER/192.168.40.241:employee-server:1000 - deregister  status: 200
-2020-07-15 15:36:02.139  INFO 4488 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2020-07-15 15:36:02.141  INFO 4488 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-07-15 15:36:02.153  INFO 4488 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-07-15 15:36:02.422  INFO 4488 --- [restartedMain] com.example.demo.DemoApplication         : *****Employee Application Started******
-2020-07-15 15:36:07.588  INFO 4488 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
-2020-07-15 15:36:08.479  INFO 4488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-07-15 15:36:08.501  INFO 4488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 1 JPA repository interfaces.
-2020-07-15 15:36:08.844  INFO 4488 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c29bc5ec-13fd-3d04-a051-8599b79264e2
-2020-07-15 15:36:09.639  INFO 4488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1000 (http)
-2020-07-15 15:36:09.639  INFO 4488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-07-15 15:36:09.640  INFO 4488 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
-2020-07-15 15:36:10.007  INFO 4488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-07-15 15:36:10.007  INFO 4488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2407 ms
-2020-07-15 15:36:10.101  INFO 4488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2020-07-15 15:36:10.103  INFO 4488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2020-07-15 15:36:10.103  INFO 4488 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:D:/database'
-2020-07-15 15:36:10.235  INFO 4488 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-07-15 15:36:10.246  INFO 4488 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-07-15 15:36:10.335  INFO 4488 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-07-15 15:36:10.336  INFO 4488 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-07-15 15:36:10.349  WARN 4488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2020-07-15 15:36:10.462  WARN 4488 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-07-15 15:36:10.462  INFO 4488 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-07-15 15:36:10.499  WARN 4488 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-07-15 15:36:10.592  INFO 4488 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-07-15 15:36:14.765  WARN 4488 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
-2020-07-15 15:36:14.782  INFO 4488 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-07-15 15:36:14.799  INFO 4488 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2020-07-15 15:36:14.802  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2020-07-15 15:36:14.809  INFO 4488 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2020-07-15 15:36:14.810  INFO 4488 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2020-07-15 15:36:14.810  INFO 4488 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2020-07-15 15:36:14.810  INFO 4488 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2020-07-15 15:36:14.892  INFO 4488 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:36:14.913  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2020-07-15 15:36:14.913  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2020-07-15 15:36:14.913  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2020-07-15 15:36:14.914  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2020-07-15 15:36:14.914  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2020-07-15 15:36:14.914  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2020-07-15 15:36:14.914  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2020-07-15 15:36:14.924  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2020-07-15 15:36:14.925  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2020-07-15 15:36:14.926  INFO 4488 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2020-07-15 15:36:14.929  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1594807574929 with initial instances count: 2
-2020-07-15 15:36:14.930  INFO 4488 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EMPLOYEE-SERVER with eureka with status UP
-2020-07-15 15:36:14.930  INFO 4488 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1594807574930, current=UP, previous=STARTING]
-2020-07-15 15:36:14.931  INFO 4488 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVER/localhost:employee-server:1000: registering service...
-2020-07-15 15:36:14.939  INFO 4488 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_EMPLOYEE-SERVER/localhost:employee-server:1000 - registration status: 204
-2020-07-15 15:36:14.947  INFO 4488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1000 (http) with context path ''
-2020-07-15 15:36:14.948  INFO 4488 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1000
-2020-07-15 15:36:16.200  INFO 4488 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 13.729 seconds (JVM running for 70860.068)
-2020-07-15 15:36:16.204  INFO 4488 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2020-07-15 15:41:14.926  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:46:15.004  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:51:15.008  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 15:56:15.010  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2020-07-15 16:01:15.031  INFO 4488 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-16 00:00:14.050  INFO 6112 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-16 00:05:14.072  INFO 6112 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-16 00:05:22.176  INFO 6112 --- [http-nio-1000-exec-5] c.e.controller.EmployeeController        : Get All Employees called
+2020-07-16 00:05:22.187  INFO 6112 --- [http-nio-1000-exec-5] com.employee.dao.EmployeeDAO             : Get all employees is successful [Employee [id=1, name=Manoj, age=80, address=Ooty, email=manoj@gmail.com], Employee [id=2, name=Prateek, age=81, address=Ooty, email=manoj@gmail.com], Employee [id=3, name=Anamika, age=23, address=Bihar, email=anamika@gmail.com], Employee [id=4, name=Elvita, age=23, address=karnataka, email=elvita@gmail.com], Employee [id=5, name=Aarthi, age=23, address=Tamilnadu, email=Aarthi@gmail.com], Employee [id=6, name=Paras, age=23, address=Bengaluru, email=paras@gmail.com]]
+2020-07-16 00:10:14.078  INFO 6112 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-16 00:10:30.658  INFO 6112 --- [http-nio-1000-exec-7] c.e.controller.EmployeeController        : Get All Employees called
+2020-07-16 00:10:30.665  INFO 6112 --- [http-nio-1000-exec-7] com.employee.dao.EmployeeDAO             : Get all employees is successful [Employee [id=1, name=Manoj, age=80, address=Ooty, email=manoj@gmail.com], Employee [id=2, name=Prateek, age=81, address=Ooty, email=manoj@gmail.com], Employee [id=3, name=Anamika, age=23, address=Bihar, email=anamika@gmail.com], Employee [id=4, name=Elvita, age=23, address=karnataka, email=elvita@gmail.com], Employee [id=5, name=Aarthi, age=23, address=Tamilnadu, email=Aarthi@gmail.com], Employee [id=6, name=Paras, age=23, address=Bengaluru, email=paras@gmail.com]]
+2020-07-16 00:15:14.082  INFO 6112 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-16 00:15:27.297  INFO 6112 --- [http-nio-1000-exec-9] c.e.controller.EmployeeController        : Get All Employees called
+2020-07-16 00:15:27.303  INFO 6112 --- [http-nio-1000-exec-9] com.employee.dao.EmployeeDAO             : Get all employees is successful [Employee [id=1, name=Manoj, age=80, address=Ooty, email=manoj@gmail.com], Employee [id=2, name=Prateek, age=81, address=Ooty, email=manoj@gmail.com], Employee [id=3, name=Anamika, age=23, address=Bihar, email=anamika@gmail.com], Employee [id=4, name=Elvita, age=23, address=karnataka, email=elvita@gmail.com], Employee [id=5, name=Aarthi, age=23, address=Tamilnadu, email=Aarthi@gmail.com], Employee [id=6, name=Paras, age=23, address=Bengaluru, email=paras@gmail.com]]
+2020-07-16 00:15:31.097  INFO 6112 --- [http-nio-1000-exec-10] c.e.controller.EmployeeController        : Get All Employees called
+2020-07-16 00:15:31.100  INFO 6112 --- [http-nio-1000-exec-10] com.employee.dao.EmployeeDAO             : Get all employees is successful [Employee [id=1, name=Manoj, age=80, address=Ooty, email=manoj@gmail.com], Employee [id=2, name=Prateek, age=81, address=Ooty, email=manoj@gmail.com], Employee [id=3, name=Anamika, age=23, address=Bihar, email=anamika@gmail.com], Employee [id=4, name=Elvita, age=23, address=karnataka, email=elvita@gmail.com], Employee [id=5, name=Aarthi, age=23, address=Tamilnadu, email=Aarthi@gmail.com], Employee [id=6, name=Paras, age=23, address=Bengaluru, email=paras@gmail.com]]
+2020-07-16 00:18:02.120  INFO 6112 --- [http-nio-1000-exec-2] c.e.controller.EmployeeController        : Get All Employees called
+2020-07-16 00:18:02.126  INFO 6112 --- [http-nio-1000-exec-2] com.employee.dao.EmployeeDAO             : Get all employees is successful [Employee [id=1, name=Manoj, age=80, address=Ooty, email=manoj@gmail.com], Employee [id=2, name=Prateek, age=81, address=Ooty, email=manoj@gmail.com], Employee [id=3, name=Anamika, age=23, address=Bihar, email=anamika@gmail.com], Employee [id=4, name=Elvita, age=23, address=karnataka, email=elvita@gmail.com], Employee [id=5, name=Aarthi, age=23, address=Tamilnadu, email=Aarthi@gmail.com], Employee [id=6, name=Paras, age=23, address=Bengaluru, email=paras@gmail.com]]
+2020-07-16 00:18:19.023  INFO 6112 --- [http-nio-1000-exec-3] c.e.controller.EmployeeController        : Get All Employees called
+2020-07-16 00:18:19.027  INFO 6112 --- [http-nio-1000-exec-3] com.employee.dao.EmployeeDAO             : Get all employees is successful [Employee [id=1, name=Manoj, age=80, address=Ooty, email=manoj@gmail.com], Employee [id=2, name=Prateek, age=81, address=Ooty, email=manoj@gmail.com], Employee [id=3, name=Anamika, age=23, address=Bihar, email=anamika@gmail.com], Employee [id=4, name=Elvita, age=23, address=karnataka, email=elvita@gmail.com], Employee [id=5, name=Aarthi, age=23, address=Tamilnadu, email=Aarthi@gmail.com], Employee [id=6, name=Paras, age=23, address=Bengaluru, email=paras@gmail.com]]

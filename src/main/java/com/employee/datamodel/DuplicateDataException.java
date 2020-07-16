@@ -1,4 +1,4 @@
-package com.demo.datamodel;
+package com.employee.datamodel;
 
 public class DuplicateDataException extends RuntimeException{
 	

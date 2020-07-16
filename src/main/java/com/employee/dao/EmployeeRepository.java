@@ -1,4 +1,4 @@
-package com.demo.dao;
+package com.employee.dao;
 
 
 import javax.transaction.Transactional;
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.demo.datamodel.Employee;
+import com.employee.datamodel.Employee;
 
 @Repository
 public  interface EmployeeRepository extends JpaRepository<Employee, Long> {

@@ -1,12 +1,12 @@
-package com.demo.controller;
+package com.employee.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.demo.datamodel.DuplicateDataException;
-import com.demo.datamodel.ResourceNotFoundException;
+import com.employee.datamodel.DuplicateDataException;
+import com.employee.datamodel.ResourceNotFoundException;
 
 @ControllerAdvice
 public class EmployeeExceptionHandler extends ResponseEntityExceptionHandler{

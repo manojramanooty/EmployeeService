@@ -1,4 +1,4 @@
-package com.demo.datamodel;
+package com.employee.datamodel;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

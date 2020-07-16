@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableEurekaClient
-@ComponentScan(basePackages= "com.demo.controller")
+@ComponentScan(basePackages= "com.employee.controller")
 public class DemoApplication {
 	
 	private static final Logger logger = LoggerFactory.getLogger(DemoApplication.class);

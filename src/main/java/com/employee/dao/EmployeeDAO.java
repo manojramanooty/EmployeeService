@@ -1,4 +1,4 @@
-package com.demo.dao;
+package com.employee.dao;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,15 +8,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-import com.demo.datamodel.Employee;
-import com.demo.datamodel.ResourceNotFoundException;
+import com.employee.datamodel.Employee;
+import com.employee.datamodel.ResourceNotFoundException;
 
 @Repository
-@EntityScan("com.demo.datamodel")
-@EnableJpaRepositories("com.demo.dao")
+@EntityScan("com.employee.datamodel")
+@EnableJpaRepositories("com.employee.dao")
 public class EmployeeDAO {
 	
     private static final Logger logger = LoggerFactory.getLogger(EmployeeDAO.class);

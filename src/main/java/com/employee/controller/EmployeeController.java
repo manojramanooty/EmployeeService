@@ -1,4 +1,4 @@
-package com.demo.controller;
+package com.employee.controller;
 
 import java.util.List;
 
@@ -16,11 +16,11 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.demo.datamodel.Employee;
-import com.demo.service.EmployeeService;
+import com.employee.datamodel.Employee;
+import com.employee.service.EmployeeService;
 
 @RestController
-@ComponentScan(basePackages="com.demo.service")
+@ComponentScan(basePackages="com.employee.service")
 public class EmployeeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(EmployeeController.class);

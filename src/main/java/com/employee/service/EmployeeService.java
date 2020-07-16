@@ -1,4 +1,4 @@
-package com.demo.service;
+package com.employee.service;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Service;
 
-import com.demo.dao.EmployeeDAO;
-import com.demo.datamodel.Employee;
+import com.employee.dao.EmployeeDAO;
+import com.employee.datamodel.Employee;
 
 @Service
-@ComponentScan(basePackages="com.demo.dao")
+@ComponentScan(basePackages="com.employee.dao")
 public class EmployeeService{
 	
 	@Autowired
